@@ -3,7 +3,7 @@ import './styles.scss'
 
 const Header = (props) => {
     return (
-        <header>
+        <header className="headerComponent">
             <div className="wrap">
                 SimpleTuts
             </div>
