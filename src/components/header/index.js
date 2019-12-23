@@ -3,9 +3,9 @@ import './styles.scss'
 
 const Header = (props) => {
     return (
-        <header className="headerComponent">
+        <header data-test="headerComponent">
             <div className="wrap">
-                SimpleTuts
+                <div data-test="logoIMG">SimpleTuts</div>
             </div>
         </header>
     )
