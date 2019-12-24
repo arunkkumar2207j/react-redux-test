@@ -1,13 +1,12 @@
 import React from 'react';
 import Header from './components/header'
-import Headline from './components/headline'
 import './app.scss';
 
 function App() {
   return (
     <div className="App">
+      <h2>Welcome to React</h2>
       <Header />
-      <Headline header="Post" desc="Click the button to render" />
     </div>
   );
 }
